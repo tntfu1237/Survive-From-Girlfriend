@@ -9,7 +9,7 @@ public class friendmoney3 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        _friendmoney = 50;
     }
 
     // Update is called once per frame

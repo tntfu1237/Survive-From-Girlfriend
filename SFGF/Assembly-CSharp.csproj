@@ -65,6 +65,9 @@
     <Compile Include="Assets\Script\friend code\friendmoney2.cs" />
     <Compile Include="Assets\Script\itemmanager.cs" />
     <Compile Include="Assets\Script\merchant.cs" />
+    <Compile Include="Assets\Script\spawnf.cs" />
+    <Compile Include="Assets\Script\spawnM.cs" />
+    <Compile Include="Assets\Script\spawnd.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

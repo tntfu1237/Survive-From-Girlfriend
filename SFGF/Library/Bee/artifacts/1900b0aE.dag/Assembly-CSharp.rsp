@@ -351,12 +351,17 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Script/BorrowMoney.cs"
 "Assets/Script/Boss.cs"
+"Assets/Script/cannotuse/ai_enime.cs"
 "Assets/Script/friend code/friendmoney.cs"
 "Assets/Script/friend code/friendmoney2.cs"
 "Assets/Script/friend code/friendmoney3.cs"
 "Assets/Script/itemmanager.cs"
 "Assets/Script/manumanager.cs"
 "Assets/Script/merchant.cs"
+"Assets/Script/Random_walk.cs"
+"Assets/Script/spawnd.cs"
+"Assets/Script/spawnf.cs"
+"Assets/Script/spawnM.cs"
 "Assets/Script/walking_code.cs"
 -langversion:9.0
 
