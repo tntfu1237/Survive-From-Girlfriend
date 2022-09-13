@@ -19,15 +19,15 @@ public class BorrowMoney : MonoBehaviour
         {
             RaedyBorrowMoney.SetActive(true);
             canBorrow = true;
-            if (collider.gameObject.name == "friend")
+            if (collider.gameObject.name == "friend" || collider.gameObject.name == "friend(Clone)")
             {
                 canBorrowF1 = true;
             }
-            if (collider.gameObject.name == "friend 2")
+            if (collider.gameObject.name == "friend 2" || collider.gameObject.name == "friend 2(Clone)")
             {
                 canBorrowF2 = true;
             }
-            if (collider.gameObject.name == "friend 3")
+            if (collider.gameObject.name == "friend 3" || collider.gameObject.name == "friend 3(Clone)")
             {
                 canBorrowF3 = true;
             }
@@ -38,7 +38,6 @@ public class BorrowMoney : MonoBehaviour
             canBorrowF1 = false;
             canBorrowF2 = false;
             canBorrowF3 = false;
-            Debug.Log("fuck");
             RaedyBorrowMoney.SetActive(false);
         }
     }

@@ -357,6 +357,9 @@
 "Assets/Script/itemmanager.cs"
 "Assets/Script/manumanager.cs"
 "Assets/Script/merchant.cs"
+"Assets/Script/spawnd.cs"
+"Assets/Script/spawnf.cs"
+"Assets/Script/spawnM.cs"
 "Assets/Script/walking_code.cs"
 -langversion:9.0
 
