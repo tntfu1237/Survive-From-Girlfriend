@@ -20,6 +20,7 @@ public class walking_code : MonoBehaviour
     public float DebutDogTime = 5.0f;
     bool hitDog = false;
     public GameObject DebutIcon;
+    public GameObject runningIcon;
 
     CharacterController characterController;
     Vector3 moveDirection = Vector3.zero;
@@ -49,6 +50,7 @@ public class walking_code : MonoBehaviour
         StaminaSlider.maxValue = Maxstamina;
         StaminaSlider.value = Maxstamina;
         DebutIcon.SetActive(false);
+        runningIcon.SetActive(false);
     }
 
     void Update()
@@ -57,23 +59,30 @@ public class walking_code : MonoBehaviour
         Vector3 forward = transform.TransformDirection(Vector3.forward);
         Vector3 right = transform.TransformDirection(Vector3.right);
         // Press Left Shift to run
-        if (Input.GetKey(KeyCode.LeftShift) && StaminaSlider.value > 0)
+        if (Input.GetKey(KeyCode.LeftShift) && StaminaSlider.value > 10)
         {
             isRunning = true;
+            StaminaSlider.value -= useStamina;
         }
         else
         {
             isRunning = false;
         }
-        if (isRunning == true && StaminaSlider.value > 0)
-        {
-            StaminaSlider.value -= useStamina;
-        }
-        else if (StaminaSlider.value == 0)
+        if (StaminaSlider.value == 0 || StaminaSlider.value < 50)
         {
             isRunning = false;
         }
-        if (StaminaSlider.value < StaminaSlider.maxValue)
+        if (isRunning == true)
+        {
+            runningIcon.SetActive(true);
+            runningSpeed = 15f;
+        }
+        else if (isRunning == false)
+        {
+            runningIcon.SetActive(false);
+            runningSpeed = 7.5f;
+        }
+        if (StaminaSlider.value + 5 < StaminaSlider.maxValue)
         {
             StaminaSlider.value += forceStamina;
         }
