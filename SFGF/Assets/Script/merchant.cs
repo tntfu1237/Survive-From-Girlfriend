@@ -80,12 +80,12 @@ public class merchant : MonoBehaviour
 
     private void OnTriggerEnter(Collider collider)
     {
-        if (collider.gameObject.name == "merchant 1")
+        if (collider.gameObject.name == "merchant 1(Clone)" || collider.gameObject.name == "merchant 1")
         {
             Cursor.visible = true;
             MerchantUI1.SetActive(true);
         }
-        if (collider.gameObject.name == "merchant 2")
+        if (collider.gameObject.name == "merchant 2" || collider.gameObject.name == "merchant 2(Clone)")
         {
             Cursor.visible = true;
             MerchantUI2.SetActive(true);

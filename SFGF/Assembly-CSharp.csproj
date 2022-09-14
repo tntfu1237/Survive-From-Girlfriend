@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\Script\BorrowMoney.cs" />
     <Compile Include="Assets\Script\friend code\friendmoney.cs" />
+    <Compile Include="Assets\Script\spawnd.cs" />
     <Compile Include="Assets\Script\friend code\friendmoney3.cs" />
     <Compile Include="Assets\Script\Boss.cs" />
     <Compile Include="Assets\Script\manumanager.cs" />
@@ -65,9 +66,8 @@
     <Compile Include="Assets\Script\friend code\friendmoney2.cs" />
     <Compile Include="Assets\Script\itemmanager.cs" />
     <Compile Include="Assets\Script\merchant.cs" />
-    <Compile Include="Assets\Script\spawnf.cs" />
     <Compile Include="Assets\Script\spawnM.cs" />
-    <Compile Include="Assets\Script\spawnd.cs" />
+    <Compile Include="Assets\Script\spawnf.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
