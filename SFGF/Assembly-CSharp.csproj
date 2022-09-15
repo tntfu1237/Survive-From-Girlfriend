@@ -56,19 +56,8 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Script\BorrowMoney.cs" />
-    <Compile Include="Assets\Script\friend code\friendmoney.cs" />
-    <Compile Include="Assets\Script\spawnd.cs" />
-    <Compile Include="Assets\Script\friend code\friendmoney3.cs" />
-    <Compile Include="Assets\Script\Boss.cs" />
-    <Compile Include="Assets\Script\manumanager.cs" />
-    <Compile Include="Assets\Script\walking_code.cs" />
-    <Compile Include="Assets\Script\friend code\friendmoney2.cs" />
-    <Compile Include="Assets\Script\itemmanager.cs" />
-    <Compile Include="Assets\Script\merchant.cs" />
-    <Compile Include="Assets\Script\spawnM.cs" />
-    <Compile Include="Assets\Script\spawnf.cs" />
-    <Compile Include="Assets\Script\ai enime.cs" />
+    <Compile Include="Assets\ai.cs" />
+    <Compile Include="Assets\Dog_AI.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -769,6 +758,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="NavMeshComponents.csproj">
+      <Project>{2B760413-822C-1B64-63F5-23C5C221F2CB}</Project>
+      <Name>NavMeshComponents</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
