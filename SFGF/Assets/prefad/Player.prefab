@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1177391785271462466}
   - component: {fileID: 1177391785271462465}
   - component: {fileID: 1177391785271462464}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Modle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -109,7 +109,7 @@ GameObject:
   - component: {fileID: 1177391786016878780}
   - component: {fileID: 1177391786016878779}
   - component: {fileID: 1177391786016878778}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -199,7 +199,7 @@ GameObject:
   - component: {fileID: 1177391786236463155}
   - component: {fileID: 1177391786236464073}
   - component: {fileID: 1177391786236464074}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -311,6 +311,8 @@ MonoBehaviour:
   useStamina: 10
   forceStamina: 5
   DebutDogTime: 5
+  DebutIcon: {fileID: 0}
+  runningIcon: {fileID: 0}
   canMove: 1
 --- !u!114 &1897155666
 MonoBehaviour:
@@ -349,7 +351,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!143 &1177391786236464073
 CharacterController:

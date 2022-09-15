@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 5562591671592904120}
   - component: {fileID: 6740173707216967131}
   - component: {fileID: 2787531389284579549}
+  - component: {fileID: 2869790002232662109}
   m_Layer: 0
   m_Name: friend 3
   m_TagString: friend
@@ -100,8 +101,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 0.5, z: 1}
+  m_Center: {x: 0, y: -0.2, z: 0}
 --- !u!65 &5562591671592904120
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -141,8 +142,22 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &2869790002232662109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5562591671592904127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01ea95108b9181d4a96df2169c700a5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementSpeed: 5
+  rotationSpeed: 10
 --- !u!1 &6740173708013296744
 GameObject:
   m_ObjectHideFlags: 0
