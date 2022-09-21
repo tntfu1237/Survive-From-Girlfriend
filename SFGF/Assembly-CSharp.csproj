@@ -63,16 +63,17 @@
     <Compile Include="Assets\Script\friend code\friendmoney3.cs" />
     <Compile Include="Assets\Script\Boss.cs" />
     <Compile Include="Assets\Script\manumanager.cs" />
-    <Compile Include="Assets\Script\walking_code.cs" />
+    <Compile Include="Assets\Script\walk\walking_code.cs" />
+    <Compile Include="Assets\Script\walk\Random_walk.cs" />
     <Compile Include="Assets\Script\friend code\friendmoney2.cs" />
+    <Compile Include="Assets\Script\FOV\FieldOfViewEditor.cs" />
     <Compile Include="Assets\Script\itemmanager.cs" />
     <Compile Include="Assets\Script\Dog_AI.cs" />
     <Compile Include="Assets\Script\merchant.cs" />
     <Compile Include="Assets\Script\spawncode\spawnM.cs" />
     <Compile Include="Assets\Script\spawncode\spawnf.cs" />
-    <Compile Include="Assets\Script\Random_walk.cs" />
-    <Compile Include="Assets\Script\FieldOfViewEditor.cs" />
-    <Compile Include="Assets\Script\FieldOfView.cs" />
+    <Compile Include="Assets\Script\FOV\FieldOfView.cs" />
+    <Compile Include="Assets\Script\walk\GetPoint.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

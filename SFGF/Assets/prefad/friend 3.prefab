@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 6740173707216967131}
   - component: {fileID: 2787531389284579549}
   - component: {fileID: 2869790002232662109}
+  - component: {fileID: 1756347176988449272}
   m_Layer: 0
   m_Name: friend 3
   m_TagString: friend
@@ -156,8 +157,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01ea95108b9181d4a96df2169c700a5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 5
-  rotationSpeed: 10
+  radius: 3
+--- !u!195 &1756347176988449272
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5562591671592904127}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.3
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 500
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 1.7
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &6740173708013296744
 GameObject:
   m_ObjectHideFlags: 0
