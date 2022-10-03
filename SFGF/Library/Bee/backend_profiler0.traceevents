@@ -1,5 +1,8 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+<<<<<<< HEAD
 <<<<<<< Updated upstream
+=======
+>>>>>>> 1463b4484e16ab008c35b0b4fabbe16df799e3fa
 ,{ "pid":12345, "tid":0, "ts":1663052380680479, "dur":633, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1663052380681124, "dur":476, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
 ,{ "pid":12345, "tid":0, "ts":1663052380681672, "dur":39, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
@@ -29,6 +32,7 @@
 ,{ "pid":12345, "tid":4, "ts":1663052380684831, "dur":439, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":4, "ts":1663052380685271, "dur":208, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1663052380687732, "dur":163, "ph":"X", "name": "ProfilerWriteOutput" }
+<<<<<<< HEAD
 =======
 ,{ "pid":12345, "tid":0, "ts":1663266128680839, "dur":977, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1663266128681826, "dur":464, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
@@ -1108,4 +1112,6 @@
 ,{ "pid":12345, "tid":4, "ts":1663266128714123, "dur":150742, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1663266128867656, "dur":3366, "ph":"X", "name": "ProfilerWriteOutput" }
 >>>>>>> Stashed changes
+=======
+>>>>>>> 1463b4484e16ab008c35b0b4fabbe16df799e3fa
 ,

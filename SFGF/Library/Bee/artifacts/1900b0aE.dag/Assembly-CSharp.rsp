@@ -358,7 +358,10 @@
 "Assets/Script/itemmanager.cs"
 "Assets/Script/manumanager.cs"
 "Assets/Script/merchant.cs"
+<<<<<<< HEAD
 "Assets/Script/Random_walk.cs"
+=======
+>>>>>>> 1463b4484e16ab008c35b0b4fabbe16df799e3fa
 "Assets/Script/spawnd.cs"
 "Assets/Script/spawnf.cs"
 "Assets/Script/spawnM.cs"
