@@ -16,6 +16,7 @@ public class merchant : MonoBehaviour
     public int priceC = 50;
     public int priceD = 75;
     public int priceW = 10;
+    public static bool canBuy = false;
 
     public void buychocolate()
     {
@@ -82,16 +83,19 @@ public class merchant : MonoBehaviour
     {
         if (collider.gameObject.name == "merchant 1(Clone)" || collider.gameObject.name == "merchant 1")
         {
+            canBuy = true;
             Cursor.visible = true;
             MerchantUI1.SetActive(true);
         }
         if (collider.gameObject.name == "merchant 2" || collider.gameObject.name == "merchant 2(Clone)")
         {
+            canBuy = true;
             Cursor.visible = true;
             MerchantUI2.SetActive(true);
         }
         if (collider.gameObject.name == "merchantout")
         {
+            canBuy = false;
             Cursor.visible = false;
             MerchantUI1.SetActive(false);
             MerchantUI2.SetActive(false);

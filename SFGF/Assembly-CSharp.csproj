@@ -62,6 +62,7 @@
     <Compile Include="Assets\Script\spawncode\spawnd.cs" />
     <Compile Include="Assets\Script\friend code\friendmoney3.cs" />
     <Compile Include="Assets\Script\Boss.cs" />
+    <Compile Include="Assets\Script\walk\GetPoint.cs" />
     <Compile Include="Assets\Script\manumanager.cs" />
     <Compile Include="Assets\Script\walk\walking_code.cs" />
     <Compile Include="Assets\Script\walk\Random_walk.cs" />
@@ -73,7 +74,6 @@
     <Compile Include="Assets\Script\spawncode\spawnM.cs" />
     <Compile Include="Assets\Script\spawncode\spawnf.cs" />
     <Compile Include="Assets\Script\FOV\FieldOfView.cs" />
-    <Compile Include="Assets\Script\walk\GetPoint.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

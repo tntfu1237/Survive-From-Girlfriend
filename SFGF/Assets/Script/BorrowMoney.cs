@@ -8,7 +8,7 @@ public class BorrowMoney : MonoBehaviour
     public GameObject RaedyBorrowMoney;
     public Slider BM;
     public int MaxBorrowMoney = 500;
-    bool canBorrow = false;
+    public static bool canBorrow = false;
     bool canBorrowF1 = false;
     bool canBorrowF2 = false;
     bool canBorrowF3 = false;

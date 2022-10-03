@@ -24,7 +24,7 @@ public class spawnM : MonoBehaviour
             m2random = Random.Range(1, 6);
         } while (m1random == m2random);
         cloneM1 = Instantiate(outM1fabs);
-        cloneM2 = Instantiate(outM1fabs);
+        cloneM2 = Instantiate(outM2fabs);
         if (m1random == 1)
         {
             cloneM1.transform.position = m1out.position;
