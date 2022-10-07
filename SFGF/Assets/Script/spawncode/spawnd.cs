@@ -12,10 +12,6 @@ public class spawnd : MonoBehaviour
     public Transform Dout2;
     public Transform Dout3;
 
-    GameObject cloneGF;
-    public GameObject outGFfabs;
-    public Transform GFout;
-
     public void GenerateD()
     {
         Drandom = Random.Range(1, 4);

@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class manumanager : MonoBehaviour
 {
     public GameObject PauseUI;
+    public GameObject ESCUI;
     public GameObject HowToPlayUI;
     float time = 0.0f;
     Text timeText;
@@ -52,6 +53,7 @@ public class manumanager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //ESCUI.SetActive(true);
         PauseUI.SetActive(false);
         //GameoverUI.SetActive(false);
     }
@@ -59,6 +61,10 @@ public class manumanager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            ESCUI.SetActive(false);
+        }
         time = time + Time.deltaTime;
         timeText = GetComponent<Text>();
         timeText.text = "time : " + time.ToString("f1");

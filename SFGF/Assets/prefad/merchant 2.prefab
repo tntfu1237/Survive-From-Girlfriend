@@ -189,7 +189,7 @@ GameObject:
   - component: {fileID: 9177326986082632720}
   - component: {fileID: 6301348620081815624}
   - component: {fileID: 5878985466513695729}
-  - component: {fileID: 3859574267618765556}
+  - component: {fileID: 2395602623001826384}
   m_Layer: 0
   m_Name: merchant 2
   m_TagString: Untagged
@@ -329,7 +329,7 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &3859574267618765556
+--- !u!114 &2395602623001826384
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -338,7 +338,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 9177326986082632721}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01ea95108b9181d4a96df2169c700a5f, type: 3}
+  m_Script: {fileID: 11500000, guid: ea8507e1b37d8b144b3d3d80143781d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 5

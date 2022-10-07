@@ -57,7 +57,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\BorrowMoney.cs" />
-    <Compile Include="Assets\Script\ENEMY_AI.cs" />
     <Compile Include="Assets\Script\friend code\friendmoney.cs" />
     <Compile Include="Assets\Script\spawncode\spawnd.cs" />
     <Compile Include="Assets\Script\friend code\friendmoney3.cs" />
@@ -74,6 +73,9 @@
     <Compile Include="Assets\Script\spawncode\spawnM.cs" />
     <Compile Include="Assets\Script\spawncode\spawnf.cs" />
     <Compile Include="Assets\Script\FOV\FieldOfView.cs" />
+    <Compile Include="Assets\Script\spawncode\spawnGF.cs" />
+    <Compile Include="Assets\Script\walk\FRandom_walk.cs" />
+    <Compile Include="Assets\Script\walk\MRandom_walk.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
