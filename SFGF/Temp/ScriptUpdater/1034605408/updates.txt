@@ -1,1 +1,0 @@
-Temp/ScriptUpdater/1034605408\1818777162_friendmoney.cs => Assets/Script/friend code/friendmoney.cs
