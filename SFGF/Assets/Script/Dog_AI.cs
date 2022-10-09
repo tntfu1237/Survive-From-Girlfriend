@@ -13,15 +13,19 @@ public class Dog_AI : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        //enemy = GetComponent<NavMeshAgent>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        while (FieldOfView.canSeePlayer)
+        if (FieldOfView.canSeePlayer == true)
         {
             enemy.SetDestination(player.position);
+        }
+        else
+        {
+
         }
     }
 }
