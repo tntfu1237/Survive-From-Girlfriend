@@ -32,13 +32,25 @@ public class BorrowMoney : MonoBehaviour
                 canBorrowF3 = true;
             }
         }
-        if (collider.gameObject.name == "friendout")
+    }
+    private void OnTriggerExit(Collider collider)
+    {
+        if (collider.gameObject.tag == "friend")
         {
-            canBorrow = false;
-            canBorrowF1 = false;
-            canBorrowF2 = false;
-            canBorrowF3 = false;
             RaedyBorrowMoney.SetActive(false);
+            canBorrow = false;
+            if (collider.gameObject.name == "friend" || collider.gameObject.name == "friend(Clone)")
+            {
+                canBorrowF1 = false;
+            }
+            if (collider.gameObject.name == "friend 2" || collider.gameObject.name == "friend 2(Clone)")
+            {
+                canBorrowF2 = false;
+            }
+            if (collider.gameObject.name == "friend 3" || collider.gameObject.name == "friend 3(Clone)")
+            {
+                canBorrowF3 = false;
+            }
         }
     }
     // Start is called before the first frame update

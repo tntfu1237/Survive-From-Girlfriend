@@ -93,14 +93,20 @@ public class merchant : MonoBehaviour
             Cursor.visible = true;
             MerchantUI2.SetActive(true);
         }
-        if (collider.gameObject.name == "merchantout")
+    }
+    private void OnTriggerExit(Collider collider)
+    {
+        if (collider.gameObject.name == "merchant 1(Clone)" || collider.gameObject.name == "merchant 1")
         {
             canBuy = false;
             Cursor.visible = false;
             MerchantUI1.SetActive(false);
+        }
+        if (collider.gameObject.name == "merchant 2" || collider.gameObject.name == "merchant 2(Clone)")
+        {
+            canBuy = false;
+            Cursor.visible = false;
             MerchantUI2.SetActive(false);
-            MerchantTalk1.SetActive(false);
-            MerchantTalk2.SetActive(false);
         }
     }
     void Start()
