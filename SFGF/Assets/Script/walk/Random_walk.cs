@@ -18,14 +18,6 @@ public class Random_walk : MonoBehaviour
     {
         if (!agent.hasPath)
         {
-            if (BorrowMoney.canBorrow == false)
-            {
-                
-            }
-            if (merchant.canBuy == false)
-            {
-
-            }
             agent.SetDestination(GetPoint.Instance.GetRandomPoint(transform, radius));
         }
     }

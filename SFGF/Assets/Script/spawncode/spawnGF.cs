@@ -79,11 +79,11 @@ public class spawnGF : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (FieldOfView.canSeePlayer == false)
+        if (FieldOfView1.canSeePlayer == false)
         {
             time -= Time.deltaTime;
         }
-        if (FieldOfView.canSeePlayer == true)
+        if (FieldOfView1.canSeePlayer == true)
         {
             time = maxtime;
         }

@@ -61,12 +61,15 @@
     <Compile Include="Assets\Script\spawncode\spawnd.cs" />
     <Compile Include="Assets\Script\friend code\friendmoney3.cs" />
     <Compile Include="Assets\Script\Boss.cs" />
+    <Compile Include="Assets\Script\FOV\FieldOfViewEditor1.cs" />
     <Compile Include="Assets\Script\walk\GetPoint.cs" />
     <Compile Include="Assets\Script\manumanager.cs" />
     <Compile Include="Assets\Script\walk\walking_code.cs" />
+    <Compile Include="Assets\Script\FOV\FieldOfView1.cs" />
     <Compile Include="Assets\Script\walk\Random_walk.cs" />
     <Compile Include="Assets\Script\friend code\friendmoney2.cs" />
     <Compile Include="Assets\Script\FOV\FieldOfViewEditor.cs" />
+    <Compile Include="Assets\Script\GF_AI.cs" />
     <Compile Include="Assets\Script\walk\FRandom_walk.cs" />
     <Compile Include="Assets\Script\itemmanager.cs" />
     <Compile Include="Assets\Script\Dog_AI.cs" />

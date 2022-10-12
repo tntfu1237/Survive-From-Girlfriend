@@ -8,12 +8,11 @@ public class Dog_AI : MonoBehaviour
 {
     public NavMeshAgent enemy;
     public Transform player;
-    public Transform tenemy;
 
     // Start is called before the first frame update
     void Start()
     {
-        //enemy = GetComponent<NavMeshAgent>();
+        enemy = GetComponent<NavMeshAgent>();
     }
 
     // Update is called once per frame
@@ -23,7 +22,7 @@ public class Dog_AI : MonoBehaviour
         {
             enemy.SetDestination(player.position);
         }
-        else
+        else if (FieldOfView.canSeePlayer == false)
         {
 
         }
