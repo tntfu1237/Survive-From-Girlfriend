@@ -1683,7 +1683,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 430711098}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 68.3, y: 0, z: 52.8}
+  m_LocalPosition: {x: -44.1, y: 0, z: 53.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8481,6 +8481,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1594103762, guid: 7ac4e9bb6d2638d449efb6e8a784c3c5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.44
+      objectReference: {fileID: 0}
     - target: {fileID: 1594103763, guid: 7ac4e9bb6d2638d449efb6e8a784c3c5, type: 3}
       propertyPath: outGFfabs
       value: 
@@ -8517,6 +8521,14 @@ PrefabInstance:
       propertyPath: MerchantTalk2
       value: 
       objectReference: {fileID: 221619316}
+    - target: {fileID: 1177391786016878780, guid: 7ac4e9bb6d2638d449efb6e8a784c3c5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 1177391786016878780, guid: 7ac4e9bb6d2638d449efb6e8a784c3c5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.511
+      objectReference: {fileID: 0}
     - target: {fileID: 1177391786236463154, guid: 7ac4e9bb6d2638d449efb6e8a784c3c5, type: 3}
       propertyPath: m_Name
       value: Player
@@ -8543,7 +8555,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1177391786236464072, guid: 7ac4e9bb6d2638d449efb6e8a784c3c5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5
+      value: 5.49
       objectReference: {fileID: 0}
     - target: {fileID: 1177391786236464072, guid: 7ac4e9bb6d2638d449efb6e8a784c3c5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8585,6 +8597,10 @@ PrefabInstance:
       propertyPath: RaedyBorrowMoney
       value: 
       objectReference: {fileID: 253687649}
+    - target: {fileID: 4611209283787740172, guid: 7ac4e9bb6d2638d449efb6e8a784c3c5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ac4e9bb6d2638d449efb6e8a784c3c5, type: 3}
 --- !u!4 &1177391786160987593 stripped
